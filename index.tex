@@ -1,0 +1,570 @@
+\documentclass[spanish,]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={SFC - Wittgenstein},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[shorthands=off,main=spanish]{babel}
+\else
+  \usepackage{polyglossia}
+  \setmainlanguage[]{spanish}
+\fi
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{SFC - Wittgenstein}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+
+\usepackage{fontspec}
+\setmainfont{Adobe Jenson Pro}
+\linespread{1.05}
+
+\begin{document}
+\maketitle
+
+\subsection{Descripción del seminario}\label{descripcion-del-seminario}
+
+Los escritos filosóficos de Wittgenstein ejercen una fascinación
+especial en quien los lee con paciencia y cuidado. En este seminario,
+estudiaremos dos: el \emph{Tractatus Logico-Philosophicus} y las
+\emph{Investigaciones Filosóficas}.
+
+El \emph{Tractactus} es una investigación lógica sobre lenguaje
+enmarcada en la línea de Gottlob Frege y Bertrand Russell; es un texto
+abstracto, técnico y poco amable con el lector, pero cuya inusual mezcla
+de lógica, metafísica, y mística se presta para una multiplicidad de
+interpretaciones y énfasis.
+
+Las \emph{Investigaciones } es una investigación sobre el lenguaje y la
+mente, rica en ejemplos concretos y descriptivos, aunque quizá un tanto
+enmarañados y que no siempre tienen un propósito filosófico claro; es un
+rechazo a las posiciones del \emph{Tractatus} y es la obra más
+influyente de Wittgenstein.
+
+El estudio de estas dos obras nos ofrece la oportunidad de ver el cambio
+en la concepción filosófica de Wittgenstein y su particular forma de
+pensar y hacer filosofía. En la primera parte del seminario,
+estudiaremos el \emph{Tractatus} de la mano de Tomasini (2017), quien
+nos ofrecerá una visión sinóptica del libro y con base en la cual
+podremos realizar una aproximación propia al texto. En la segunda parte
+del seminario, estudiaremos las \emph{Investigaciones} enfocándonos en
+pasajes particulares de la obra, buscando entender conceptos centrales
+como ``juego del lenguaje'', ``regla'' y ``representación perspicua''.
+
+\textbf{Profesor}: \href{../index.html}{Juan Camilo Espejo-Serna}\\
+\textbf{Horario y salón}: Martes, 10:00am - 1:00pm. Atelier 103
+
+\textbf{Página web del seminario}:
+\url{https://jcunisabana.github.io/Witt/}
+
+\subsection{Objetivos}\label{objetivos}
+
+\begin{itemize}
+\item
+  Leer críticamente, analizar e interpretar la propuesta filosófica
+  temprana de Ludwig Wittgenstein.
+\item
+  Leer críticamente, analizar e interpretar la propuesta filosófica
+  tardía de Ludwig Wittgenstein.
+\item
+  Planear y elaborar textos interpretativos y argumentativos con base en
+  las teorías de Ludwig Wittgenstein.
+\item
+  Utilizar TIC para apoyar el estudio filosófico de la obra de Ludwig
+  Wittgenstein
+\end{itemize}
+
+\subsection{Metodología}\label{metodologia}
+
+\paragraph{\texorpdfstring{\textbf{Antes de la
+sesión}}{Antes de la sesión}}\label{antes-de-la-sesion}
+
+\begin{itemize}
+\item
+  Quienes estén a cargo de la presentación oral deberán preparar una
+  exposición de 20-25 minutos de duración. Deben consultar
+  \textbf{siempre} con el profesor (¡antes de la sesión!) y ponerse de
+  acuerdo en una estrucutra para la presentación.
+\item
+  Todos los estudiantes deberán subir un control de lectura por tarde
+  \textbf{75 horas} antes de la sesión.
+\end{itemize}
+
+\paragraph{\texorpdfstring{\textbf{Durante la
+sesión}}{Durante la sesión}}\label{durante-la-sesion}
+
+\begin{itemize}
+\item
+  Quienes esten a cargo de la presentación oral deberán realizar su
+  exposición. Pueden, por ejemplo, escribir un texto para ser leído, o
+  preparar diapositivas para guiar su exposición o utilizar el tablero
+  como apoyo. Es su decisión pero deben tener en cuenta que el objetivo
+  es lograr presentar y explicar el texto correspondiente.
+\item
+  Todos deben atender con cuidado a la exposición y formular preguntas
+  al respecto. Revisen si entienden la exposición y si están de acuerdo;
+  pregunten por las relaciones con los temas anteriormente expuestos.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{Plan semanal}\label{plan-semanal}
+
+\subsubsection{Martes 22 Enero}\label{martes-22-enero}
+
+\textbf{Semana 1}
+
+Vida y obra de Ludwig Wittgenstein. Presentación del programa y las
+reglas de juego del seminario.
+
+\emph{Actividades}
+
+Presentación a cargo del profesor: las introducciones del TLP y las IF.
+Taller de filosofía por recortes. Taller sobre el programa.
+
+\emph{Para la próxima}
+
+Leer \textbf{todo} el \emph{Tractatus Logico-Philosophicus}.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 29 Enero}\label{martes-29-enero}
+
+\textbf{Semana 2}
+
+La multiplicidad de interpretaciones del \emph{TLP}.
+
+\emph{Actividades}
+
+Taller sobre el orden del TLP. Presentación a cargo del profesor.
+
+\emph{Para la próxima}
+
+Leer Tomasini, Cap 2 y Tomasini, Cap 3. Control de lectura.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 05 Febrero}\label{martes-05-febrero}
+
+\textbf{Semana 3}
+
+Ontología y lógica
+
+\emph{Actividades}
+
+Presentación de Tomasini, Cap 2 a cargo de (Por definir). Presentación
+de Tomasini, Cap 3 a cargo de (Por definir).
+
+\emph{Para la próxima}
+
+Leer Tomasini, Cap 4 y Tomasini, Cap 5. Control de lectura.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 12 Febrero}\label{martes-12-febrero}
+
+\textbf{Semana 4}
+
+Lógica, matemáticas y ciencia
+
+\emph{Actividades}
+
+Presentación de Tomasini, Cap 4 a cargo de (Por definir). Presentación
+de Tomasini, Cap 5 a cargo de (Por definir).
+
+\emph{Para la próxima}
+
+Leer Tomasini, Cap 6 y Tomasini, Cap 7. Control de lectura.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 19 Febrero}\label{martes-19-febrero}
+
+\textbf{Semana 5}
+
+Solipsismo, misticismo y filosofía
+
+\emph{Actividades}
+
+Presentación de Tomasini, Cap 6 a cargo de (Por definir). Presentación
+de Tomasini, Cap 7 a cargo de (Por definir). Presentación de Tomasini,
+Cap 8 a cargo de (Por definir).
+
+\emph{Para la próxima}
+
+Segunda versión del taller de filosofía por recortes.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 26 Febrero}\label{martes-26-febrero}
+
+\textbf{Semana 6}
+
+Interpretaciones propias del \emph{TLP}
+
+\emph{Actividades}
+
+Auto-evaluación y co-evaluación del taller de recortes.
+
+\emph{Para la próxima}
+
+Leer IF Parte I, §§1-88. Control de lectura
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 05 Marzo}\label{martes-05-marzo}
+
+\textbf{Semana 7}
+
+Crítica a la definición ostensiva
+
+\emph{Actividades}
+
+Presentación de IF Parte I, §§1-88 a cargo de Derly y Laura
+
+\emph{Para la próxima}
+
+Leer IF Parte I, §§ 89-133. Control de lectura
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 12 Marzo}\label{martes-12-marzo}
+
+\textbf{Semana 8}
+
+La noción de filosofía
+
+\emph{Actividades}
+
+Presentación de IF Parte I, §§ 89-133 a cargo de Nicolás.
+
+\emph{Para la próxima}
+
+Leer IF Parte I, §§ 134 - 242. Control de lectura
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 19 Marzo}\label{martes-19-marzo}
+
+\textbf{Semana 9}
+
+Seguimiento de reglas
+
+\emph{Actividades}
+
+Presentación de IF Parte I, §§ 134 - 242 a cargo de Daniela.
+
+\emph{Para la próxima}
+
+Leer IF Parte I, §§ 243 - 275. Control de lectura
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 26 Marzo}\label{martes-26-marzo}
+
+\textbf{Semana 10}
+
+Lenguaje privado
+
+\emph{Actividades}
+
+Presentación de IF Parte I, §§ 243 - 275 a cargo de Esteban.
+
+\emph{Para la próxima}
+
+Leer IF Parte I, §§276 - 307. Control de lectura
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 02 Abril}\label{martes-02-abril}
+
+\textbf{Semana 11}
+
+Lo interno y lo externo.
+
+\emph{Actividades}
+
+Presentación de IF Parte I, §§276 - 307 a cargo de Katherin.
+
+\emph{Para la próxima}
+
+Leer IF Parte II, 11. Control de lectura
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 09 Abril}\label{martes-09-abril}
+
+\textbf{Semana 12}
+
+Ver y ver como
+
+\emph{Actividades}
+
+Presentación de IF Parte II, 11 a cargo de Santiago.
+
+\emph{Para la próxima}
+
+Escribir \textbf{dos páginas} en respuesta a alguna de las preguntas
+pre-establecidas.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 16 Abril}\label{martes-16-abril}
+
+\textbf{Semana 13}
+
+NO HAY SESIÓN (Semana Santa)
+
+\emph{Actividades}
+
+--
+
+\emph{Para la próxima}
+
+Leer (Comentarista). Control de lectura
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 23 Abril}\label{martes-23-abril}
+
+\textbf{Semana 14}
+
+(Por definir)
+
+\emph{Actividades}
+
+Presentación de (Comentarista) a cargo de (Por definir).
+
+\emph{Para la próxima}
+
+Leer (Comentarista). Control de lectura
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 30 Abril}\label{martes-30-abril}
+
+\textbf{Semana 15}
+
+(Por definir)
+
+\emph{Actividades}
+
+Presentación de (Comentarista) a cargo de (Por definir).
+
+\emph{Para la próxima}
+
+Leer (Comentarista). Control de lectura
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 07 Mayo}\label{martes-07-mayo}
+
+\textbf{Semana 16}
+
+(Por definir)
+
+\emph{Actividades}
+
+Presentación de (Comentarista) a cargo de (Por definir).
+
+\emph{Para la próxima}
+
+Leer (Comentarista). Control de lectura
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 14 Mayo}\label{martes-14-mayo}
+
+\textbf{Semana 17}
+
+(Por definir)
+
+\emph{Actividades}
+
+Presentación de (Comentarista) a cargo de (Por definir).
+
+\emph{Para la próxima}
+
+Revisión final del ensayo final.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsubsection{Martes 21 Mayo}\label{martes-21-mayo}
+
+\textbf{Semana 18}
+
+\emph{Actividades}
+
+Entrega de ensayo final
+
+\subsection{Evaluación}\label{evaluacion}
+
+\paragraph{\texorpdfstring{\textbf{Talleres}}{Talleres}}\label{talleres}
+
+Actividades para realizar en casa y en clase que servirán de pasos
+intermedios en el aprendizaje. En clase se ofrecerán instrucciones más
+precisas cuando llegue el momento de cada taller.
+
+\paragraph{\texorpdfstring{\textbf{Presentación
+oral}}{Presentación oral}}\label{presentacion-oral}
+
+Extensión: entre 20 y 25 minutos.
+
+La presentación debe 1) tener una reseña crítica del texto asignado y 2)
+ofrecer puntos para la discusión. Ustedes son los encargados de la
+sesión durante el tiempo asignado; es su deber coordinar la dinámica
+durante ese tiempo.
+
+\paragraph{\texorpdfstring{\textbf{Control de
+lectura}}{Control de lectura}}\label{control-de-lectura}
+
+Extensión: entre 400 y 1000 palabras.
+
+Para cada lectura asignada, los estudiantes deben escribir un texto
+corto con la tesis principal, tres afirmaciones/presuposiciones del
+texto y tres preguntas/desafíos al texto.
+
+Los controles deberán ser subidos a la plataforma virtual a más tardar
+\textbf{75 horas} antes de la sesión. Todos los estudiantes empiezan con
+5.0 en esta nota; por cada vez que no se participe dentro del rango de
+tiempo especificado, la nota será disminuida de acuerdo con los
+siguientes parámetros: primera vez: -0.5; segunda vez: -1.0; tercera
+vez: -1.5; cuarta vez: -2.0.
+
+Todos tienen un control de lectura ``de gracia''. Es decir, pueden dejar
+de entregar uno sin problema; el primer control de lectura que les falte
+no cuenta. Por ejemplo, si no entregan el control de lectura de la
+sesión en la que tienen que hacer la presentación y entregan todos los
+demás, su nota igual queda en 5.0.
+
+\paragraph{\texorpdfstring{\textbf{Ensayo
+argumentativo}}{Ensayo argumentativo}}\label{ensayo-argumentativo}
+
+Extensión: entre 2000 y 3500 palabras.
+
+Un texto argumentativo de en donde se responda a una pregunta. Se debe
+hacer uso de literatura secundaria de acuerdo con las normas de
+citación. En clase se ofrecerán las instrucciones más precisas cuando
+llegue el momento.
+
+\paragraph{\texorpdfstring{\textbf{Calificación}}{Calificación}}\label{calificacion}
+
+\begin{tabular}{l|l|r}
+\hline
+Actividad & \% & Corte\\
+\hline
+Taller sobre el programa & 3\% & 1\\
+\hline
+Presentaci<U+00F3>n oral & 6\% & 1\\
+\hline
+Taller filosof<U+00ED>a por recortes & 3\% & 1\\
+\hline
+Taller orden & 3\% & 1\\
+\hline
+Controles de lectura & 15\% & 1\\
+\hline
+Controles de lectura & 15\% & 2\\
+\hline
+Presentaci<U+00F3>n oral & 15\% & 2\\
+\hline
+Primer borrador ensayo final & 8\% & 3\\
+\hline
+Controles de lectura & 8\% & 3\\
+\hline
+Ensayo final & 24\% & 3\\
+\hline
+\end{tabular}
+
+\textbf{Toda} entrega tarde injustificada verá la nota disminuida en 0.5
+unidades por cada día tarde. No haber entregado antes de la hora
+acordada equivale a entregar un día tarde.
+
+
+\end{document}
