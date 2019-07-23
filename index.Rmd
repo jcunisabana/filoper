@@ -1,12 +1,12 @@
 ---
-title: "SFC - Wittgenstein"
+title: "SFC - Filosofía de la percepción"
 author: ''
 date: ''
 always_allow_html: yes
 output:
  
   html_document:
-    theme: united
+    theme: yeti
     toc: yes
     toc_depth: 4
     toc_float: yes
@@ -39,56 +39,52 @@ library(readxl)
 library(knitr)
 library(kableExtra)
 
-PlanSemanal <-  read_excel("Witt.xlsx")
-Notas <- read_excel("Witt.xlsx", sheet = "notas")
+PlanSemanal <-  read_excel("base.xlsx")
+Notas <- read_excel("base.xlsx", sheet = "notas")
+
 Semana <- 1
 ```
 
 ## Descripción del seminario
 
-<img align="right" src="img/fliegenglass.jpg" title="Heimatmuseum Altes Rathaus Loßburg. (2017-04-20). Fliegenglas. Descargado de https://bawue.museum-digital.de/index.php?t=objekt&oges=2108&cachesLoaded=true" style="width:350;height:350px;">
+<img align="right" src="img/percep.jpg" title="Descartes: Coordination of muscle and visual mechanisms. Credit: Wellcome Collection. CC BY" style="width:350;height:350px;">
 
-Los escritos filosóficos de Wittgenstein ejercen una fascinación especial en quien los lee con paciencia y cuidado. En este seminario, estudiaremos dos:  el *Tractatus Logico-Philosophicus* y las *Investigaciones Filosóficas*. 
+Uno de los mayores retos para el estudio de la naturaleza de la mente se encuentra en lo que los filósofos llaman el caracter fenoménico de la experiencia consciente. ¿Qué distingue nuestra experiencia perceptual consciente de un día de densa niebla donde sólo se ve blanco por todos lados de la experiencia de una cuarto en oscuridad total o de lo que sucede cuando perdemos la vista y ya no podemos ver nada? Estas experiencias difieren en la manera como se sienten, esto es, en su caracter fenoménico —o *qualia*, como también se le llama. ¿Qué es el caracter fenoménico? ¿Es posible dar cuenta de este aspecto de nuestras experiencias de? Si sí, ¿qué tipo de explicación se deber dar? Estas son las preguntas que guiarán el seminario
 
-El *Tractactus* es una investigación lógica sobre lenguaje enmarcada en la línea de Gottlob Frege y Bertrand Russell; es un texto abstracto, técnico y poco amable con el lector, pero cuya inusual mezcla de lógica, metafísica, y mística se presta para una multiplicidad de interpretaciones y énfasis. 
-
-Las *Investigaciones * es una investigación sobre el lenguaje y la mente, rica en ejemplos concretos y descriptivos, aunque quizá un tanto enmarañados y que no siempre tienen un propósito filosófico claro; es un rechazo a las posiciones del *Tractatus* y es la obra más influyente de Wittgenstein.  
-
-El estudio de estas dos obras nos ofrece la oportunidad de ver el cambio en la concepción filosófica de Wittgenstein y su particular forma de pensar y hacer filosofía. En la primera parte del seminario, estudiaremos el *Tractatus* de la mano de Tomasini (2017), quien nos ofrecerá una visión sinóptica del libro y con base en la cual podremos realizar una aproximación propia al texto. En la segunda parte del seminario, estudiaremos las *Investigaciones* enfocándonos en pasajes particulares de la obra, buscando entender conceptos centrales como "juego del lenguaje", "regla" y "representación perspicua".
+El objetivo central de este seminario es desarrollar las capacidades de comprender, analizar y evaluar posibles intentos de caracterizar el caracter fenoménico de la experiencia consciente y las dificultades que surgen de ellos. Con este fin, estudiaremos y evaluaremos los alcances y las limitaciones de las estrategias argumentativas empleadas por diversos autores contemporáneos respecto a la pregunta por la naturaleza del caracter fenoménico de la experiencia perceptual consciente y los desafíos que se les han presentado. En particular, pensaremos sobre la forma en que el carácter fenoménico de nuestras experiencias presenta un desafío para las principales teorías filosóficas de la mente.
 
 **Profesor**:
 [Juan Camilo Espejo-Serna](../index.html)\
 
-**Horario y salón**: Martes, 10:00am - 1:00pm. Atelier 103
+**Horario y salón**: Miércoles, 2:00pm - 5:00pm. Ad portas 401\
 
 **Página web del seminario**:
-https://jcunisabana.github.io/Witt/
+https://jcunisabana.github.io/filoper
 
 
 ## Objetivos
 
       
-- Leer críticamente, analizar e interpretar la propuesta filosófica temprana de Ludwig Wittgenstein.
+- Leer críticamente, analizar e interpretar las diferentes propuestas filosóficas sobre la naturaleza del caracter subjetivo de la experiencia.
 
-- Leer críticamente, analizar e interpretar la propuesta filosófica tardía de Ludwig Wittgenstein.
+- Leer críticamente, analizar e interpretar las diferentes propuestas filosóficas sobre la naturaleza del caracter subjetivo de la experiencia.
 
-- Planear y elaborar textos interpretativos y argumentativos con base en las teorías de Ludwig Wittgenstein.
+- Planear y elaborar textos interpretativos y argumentativos con base en las diferentes propuestas filosóficas sobre la naturaleza del caracter subjetivo de la experiencia.
 
-- Utilizar TIC para apoyar el estudio filosófico de la obra de Ludwig Wittgenstein
+- Utilizar TIC para apoyar el estudio las diferentes propuestas filosóficas sobre la naturaleza del caracter subjetivo de la experiencia.
 
 
 ## Metodología
 
 
 #### **Antes de la sesión**
+- Quien está a cargo de la <a href="#Relatoría">relatoría</a> deberá subir su texto a la plataforma al menos **siete días** antes de la sesión. Deben consultar **SIEMPRE** con el profesor (¡antes de la clase!) y ponerse de acuerdo en la forma de desarrollar la sesión.
 
-- Quienes estén a cargo de la presentación oral deberán preparar una exposición de 20-25 minutos de duración. Deben consultar **siempre** con el profesor (¡antes de la sesión!) y ponerse de acuerdo en una estrucutra para la presentación.
-
-- Todos los estudiantes deberán subir un control de lectura por tarde **75 horas** antes de la sesión.
+- Todos los estudiantes deberán subir el <a href="#Control de lectura">control de lectura</a> por tarde **75 horas** antes de la sesión para luego leer la relatoría, escribir una <a href="#Comentario a la relatoría">respuesta corta</a> a ella y subir la respuesta a la plataforma al menos **5 horas** antes de la sesión. 
 
 #### **Durante la sesión**
 
-- Quienes esten a cargo de la presentación oral deberán realizar su exposición. Pueden, por ejemplo, escribir un texto para ser leído, o preparar diapositivas para guiar su exposición o utilizar el tablero como apoyo. Es su decisión pero deben tener en cuenta que el objetivo es lograr presentar y explicar el texto correspondiente.
+- Quien esté a cargo de la <a href="#Relatoría">relatoría</a> está a cargo de la sesión. Pueden, por ejemplo, escribir un texto para ser leído, o preparar diapositivas para guiar su exposición o utilizar el tablero como apoyo. Es su decisión, pero deben tener en cuenta que el objetivo es lograr presentar y explicar el texto correspondiente. Sin embargo, siempre deben contar con un texto base.
 
 - Todos deben atender con cuidado a la exposición y formular preguntas al respecto. Revisen si entienden la exposición y si están de acuerdo; pregunten por las relaciones con los temas anteriormente expuestos.
 
@@ -97,25 +93,24 @@ https://jcunisabana.github.io/Witt/
 
 ## Plan semanal 
 
-
 ### `r  PlanSemanal$FechaText[Semana]`
 
 **Semana `r Semana`**
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
 
-`r PlanSemanal$Actividades[Semana]`
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
 
-`r PlanSemanal$Tareas[Semana]`
 
+`r PlanSemanal$Actividades[Semana]`
 
 </div>
 
@@ -129,20 +124,49 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
 
-`r PlanSemanal$Tareas[Semana]`
 
+---
+
+---
+`r Semana <- Semana +1`
+
+### `r  PlanSemanal$FechaText[Semana]`
+
+**Semana `r Semana`**
+
+`r PlanSemanal$Tema[Semana]`
+
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
 
 </div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
+
+`r PlanSemanal$Actividades[Semana]`
+
+</div>
+
 
 
 ---
@@ -154,20 +178,21 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
 
 
 ---
@@ -179,20 +204,21 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
 
 
 ---
@@ -204,20 +230,21 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
 
 
 ---
@@ -229,20 +256,21 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
 
 
 ---
@@ -254,20 +282,21 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
 
 
 ---
@@ -279,20 +308,21 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
 
 
 ---
@@ -304,20 +334,21 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
 
 
 ---
@@ -329,20 +360,21 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
 
 
 ---
@@ -354,20 +386,21 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
 
 
 ---
@@ -379,20 +412,21 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
 
 
 ---
@@ -404,20 +438,21 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
 
 
 ---
@@ -429,20 +464,21 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
 
 
 ---
@@ -454,101 +490,35 @@ https://jcunisabana.github.io/Witt/
 
 `r PlanSemanal$Tema[Semana]`
 
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
+
+<div style="border: 3px solid  #008CBA ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
+*Lecturas*
+
+`r PlanSemanal$Texto1[Semana]`
+
+</div>
+
+<div style="color:white; background-color: #008CBA ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
+
 
 `r PlanSemanal$Actividades[Semana]`
 
 </div>
 
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
 
 
-</div>
-
-
----
-`r Semana <- Semana +1`
-
-### `r  PlanSemanal$FechaText[Semana]`
-
-**Semana `r Semana`**
-
-`r PlanSemanal$Tema[Semana]`
-
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
-
-`r PlanSemanal$Actividades[Semana]`
-
-</div>
-
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
-
-
----
-`r Semana <- Semana +1`
-
-### `r  PlanSemanal$FechaText[Semana]`
-
-**Semana `r Semana`**
-
-`r PlanSemanal$Tema[Semana]`
-
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
-
-`r PlanSemanal$Actividades[Semana]`
-
-</div>
-
-<div style="color:white; background-color: #E95420 ; padding: 5px;"  margin-bottom: 50px; margin-right: 50px; margin-left: 50px; ">
-*Para la próxima*
-
-`r PlanSemanal$Tareas[Semana]`
-
-
-</div>
-
-
----
-`r Semana <- Semana +1`
-
-### `r  PlanSemanal$FechaText[Semana]`
-
-**Semana `r Semana`**
-
-
-<div style="border: 3px solid  #E95420 ; padding: 5px;"  margin-top: 50px; margin-right: 50px; margin-left: 50px; ">
-*Actividades*
-
-`r PlanSemanal$Actividades[Semana]`
-
-</div>
 
 
 
 
 ## Evaluación
 
-#### **Talleres**
 
-Actividades para realizar en casa y en clase que servirán de pasos intermedios en el aprendizaje. En clase se ofrecerán instrucciones más precisas cuando llegue el momento de cada taller.
+#### **Relatoría**
 
-#### **Presentación oral**
+Extensión: entre 1500 y 2500 palabras.
 
-Extensión: entre 20 y 25 minutos.
-
-La presentación debe 1) tener una reseña crítica del texto asignado y 2) ofrecer puntos para la discusión. Ustedes son los encargados de la sesión durante el tiempo asignado; es su deber coordinar la dinámica durante ese tiempo.
+Habrá un relator encargado de presentar el tema de cada sesión. La relatoría debe 1) tener una reseña crítica del texto asignado y 2) ofrecer puntos para la discusión. El texto de la relatoría deberá estar listo **siete días** antes de la sesión. Por cada día tarde la nota será disminuida de acuerdo con los siguientes parámetros: un día: -0.5; dos días: -1.0; tres días: -1.5;  cuatro días: -2.0. Es obligación del ponente subir la relatoría a la plataforma virtual y traer copias impresas para todos los integrantes del seminario **siete días** antes de la presentación --a menos que se llegue a un acuerdo diferente.
 
 #### **Control de lectura**
 Extensión: entre 400 y 1000 palabras.
@@ -557,23 +527,38 @@ Para cada lectura asignada, los estudiantes deben escribir un texto corto con la
 
 Los controles deberán ser subidos a la plataforma virtual a más tardar **75 horas** antes de la sesión. Todos los estudiantes empiezan con 5.0 en esta nota; por cada vez que no se participe dentro del rango de tiempo especificado, la nota será disminuida de acuerdo con los siguientes parámetros: primera vez: -0.5; segunda vez: -1.0; tercera vez: -1.5; cuarta vez: -2.0.
 
-Todos tienen un control de lectura "de gracia". Es decir, pueden dejar de entregar uno sin problema; el primer control de lectura que les falte no cuenta. Por ejemplo, si no entregan el control de lectura de la sesión en la que tienen que hacer la presentación y entregan todos los demás, su nota igual queda en 5.0.
+Todos tienen un control de lectura "de gracia". Es decir, pueden dejar de entregar uno sin problema; el primer control de lectura que les falte no cuenta. Por ejemplo, si no entregan el control de lectura de la sesión en la que tienen que presentar la relatoría y entregan todos los demás, su nota igual queda en 5.0.
+
+#### **Comentario a la relatoría**
+Extensión: entre 400 y 500 palabras.
+
+Para cada relatoría, todos los estudiantes (salvo quien está a cargo de la relatoría) deberán escribir un texto corto en respuesta. La respuesta puede tomar diferentes formas pero esencialmente debe ser o bien *la respuesta* a una pregunta, explícita o implícita, en la relatoría o acerca de ella o bien el planteameanto detallado de un desafío o pregunta a la relatoría.
+
+Los comentarios deberán ser subidos a la plataforma virtual a más tardar **5 horas** antes de la sesión. Todos los estudiantes empiezan con 5.0 en esta nota; por cada vez que no se participe dentro del rango de tiempo especificado, la nota será disminuida de acuerdo con los siguientes parámetros: primera vez: -0.5; segunda vez: -1.0; tercera vez: -1.5; cuarta vez: -2.0.
+
+#### **Abstract del ensayo argumentativo**
+Extensión: entre 400 y 500 palabras.
+
+Un texto  corto en donde se presente un resumen de la tesis principal y la estrategia argumentativa que empleará para ser entregado el **31 de octubre**.
 
 #### **Ensayo argumentativo**
 Extensión: entre 2000 y 3500 palabras.
 
-Un texto argumentativo de en donde se responda a una pregunta. Se debe hacer uso de literatura secundaria de acuerdo con las normas de citación. En clase se ofrecerán las instrucciones más precisas cuando llegue el momento.
+Un texto argumentativo de en donde se defienda una tesis filosófica. Se debe hacer uso de literatura secundaria de acuerdo con las normas de citación. En clase se ofrecerán las instrucciones más precisas cuando llegue el momento.
 
 
-#### **Calificación**
 
-```{r echo=FALSE}
+## **Calificación**
 
-  kable(Notas[ ,c(1,3,4)]) %>%
-  kable_styling(bootstrap_options = c("striped", "hover"), full_width = F, position = "left")
-```
-
-<p style="color:white; background-color:indigo; padding: 5px; width: 50%;">**Toda** entrega tarde injustificada verá la nota disminuida en 0.5 unidades por cada día tarde. No haber entregado antes de la hora acordada equivale a entregar un día tarde.</p>
+| Corte | Actividad | Valor Porcentual |
+| :-------------:|:-------------:|:-----:|
+| 1 | Controles de lectura semanales| 15% |
+| 1 | Comentarios a las relatorías| 15% |
+| 2 | Protocolo    |   15% |
+| 2 | Relatoría | 15% |
+| 3 | Abstract del ensayo argumentativo    |   10% |
+| 3 | Ensayo argumentativo | 30% |
+<p style="color:white; background-color:#008CBA; padding: 5px; width: 100%;">**TODA** entrega tarde injustificada verá la nota disminuida en 0.5 unidades por cada día tarde. No haber entregado antes de la hora acordada equivale a entregar un día tarde.</p>
 
 
 
