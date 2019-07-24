@@ -49,7 +49,7 @@ Semana <- 1
 
 <img align="right" src="img/percep.jpg" title="Descartes: Coordination of muscle and visual mechanisms. Credit: Wellcome Collection. CC BY" style="width:350;height:350px;">
 
-Uno de los mayores retos para el estudio de la naturaleza de la mente se encuentra en lo que los filósofos llaman el caracter fenoménico de la experiencia consciente. ¿Qué distingue nuestra experiencia perceptual consciente de un día de densa niebla donde sólo se ve blanco por todos lados de la experiencia de una cuarto en oscuridad total o de lo que sucede cuando perdemos la vista y ya no podemos ver nada? Estas experiencias difieren en la manera como se sienten, esto es, en su caracter fenoménico —o *qualia*, como también se le llama. ¿Qué es el caracter fenoménico? ¿Es posible dar cuenta de este aspecto de nuestras experiencias de? Si sí, ¿qué tipo de explicación se deber dar? Estas son las preguntas que guiarán el seminario
+Uno de los mayores retos para el estudio de la naturaleza de la mente se encuentra en lo que los filósofos llaman el caracter fenoménico de la experiencia consciente. ¿Qué distingue nuestra experiencia perceptual consciente de un día de densa niebla donde sólo se ve blanco por todos lados de la experiencia de una habitación en oscuridad total o de lo que sucede cuando perdemos la vista y ya no podemos ver nada? Estas experiencias difieren en la manera como se sienten, esto es, en su caracter fenoménico —o *qualia*, como también se le llama. ¿Qué es el caracter fenoménico? ¿Es posible dar cuenta de este aspecto de nuestras experiencias de? Si sí, ¿qué tipo de explicación se deber dar? Estas son las preguntas que guiarán el seminario
 
 El objetivo central de este seminario es desarrollar las capacidades de comprender, analizar y evaluar posibles intentos de caracterizar el caracter fenoménico de la experiencia consciente y las dificultades que surgen de ellos. Con este fin, estudiaremos y evaluaremos los alcances y las limitaciones de las estrategias argumentativas empleadas por diversos autores contemporáneos respecto a la pregunta por la naturaleza del caracter fenoménico de la experiencia perceptual consciente y los desafíos que se les han presentado. En particular, pensaremos sobre la forma en que el carácter fenoménico de nuestras experiencias presenta un desafío para las principales teorías filosóficas de la mente.
 
@@ -546,7 +546,10 @@ Extensión: entre 2000 y 3500 palabras.
 
 Un texto argumentativo de en donde se defienda una tesis filosófica. Se debe hacer uso de literatura secundaria de acuerdo con las normas de citación. En clase se ofrecerán las instrucciones más precisas cuando llegue el momento.
 
+#### **Extra**
+Extensión: a convenir
 
+Un trabajo que tendrá una forma diferente que será acordada con los estudiantes. Podrá ser la explicación en video de una ilusión óptica, la elaboración de taller de 5 minutos para presentar un ejemplo de experiencia perceptual extraño o una relatoría extra. La forma de calificación se convendrá con los estudiantes con anterioridad.
 
 ## **Calificación**
 
@@ -554,7 +557,7 @@ Un texto argumentativo de en donde se defienda una tesis filosófica. Se debe ha
 | :-------------:|:-------------:|:-----:|
 | 1 | Controles de lectura semanales| 15% |
 | 1 | Comentarios a las relatorías| 15% |
-| 2 | Protocolo    |   15% |
+| 2 | Extra    |   15% |
 | 2 | Relatoría | 15% |
 | 3 | Abstract del ensayo argumentativo    |   10% |
 | 3 | Ensayo argumentativo | 30% |
