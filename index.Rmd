@@ -220,6 +220,7 @@ https://jcunisabana.github.io/filoper
 </div>
 
 
+([Una nota periodística sobre la conducta personal y profesional de McGuinn.](https://www.miaminewtimes.com/news/is-it-ok-for-a-um-professor-to-burden-a-student-with-sexual-advances-7581424))
 
 ---
 `r Semana <- Semana +1`
